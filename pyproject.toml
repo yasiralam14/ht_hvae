@@ -1,0 +1,20 @@
+[project]
+name = "HVAE"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+  "torch",
+  "transformers",
+  "sentence-transformers",
+  "scikit-learn",
+  "pandas",
+  "numpy",
+  "tqdm",
+  "wandb",
+  "nltk",
+  "beautifulsoup4",
+  "matplotlib",
+  "seaborn",
+]
+[tool.setuptools]
+packages = ["loss", "data", "model", "train", "evaluations"]
